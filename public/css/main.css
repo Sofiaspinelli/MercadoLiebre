@@ -1,0 +1,25 @@
+.home main section article {
+    margin: 20px ;
+}
+.home main section .producto{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.home main h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.home main section article p {
+    font-size: 16px;
+}
+.home main section article p .precio {
+    font-size: 18px;
+}
+
+.home main section article {
+    text-align: center;
+    
+}
