@@ -1,19 +1,22 @@
 footer {
     background-color: var(--blanco);
+    text-align: center;
+    padding-top: 0;
 }
+
 footer section {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    
+    margin: 30px 30px;
+
 }
-footer section article {
-    margin: 20px 30px;
+footer section:last-child {
+    text-align: left;
 }
-footer section article p i {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    text-align: center;
+footer section h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+footer section i {
     color: var(--celeste);
+    font-size: var(--iconos);
+    margin: 10px 0;
 }
