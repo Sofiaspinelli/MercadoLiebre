@@ -1,21 +1,38 @@
-
-header .logo {
-    display: flex;
-    justify-content: start;
-    width: 200px;
+header {
+    padding: 10px;
 }
+header .logo {
+    width: 50%;
+    margin-right: 5px;
+    
+}
+header .barra {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+header .seach {
+    width: 60%;
+    height: 40%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+header .top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 header nav {
     display: none;
-
 }
 
 header p{
 margin: 20px 0;
 text-align: center;
 font-size: 12px;
-}
-header ul {
-    padding: 10px 0;
 }
 
 header button {
@@ -29,13 +46,10 @@ header button {
 header .hambur {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
-    
-   
+
 }
 header .hambur i{
     font-size: 1.5em;
-
 }
 /* Tablet  */
 
@@ -44,13 +58,69 @@ header .hambur i{
         display: none;
     }
     header nav {
-        display: block;
+    display: flex;
 
-    }
+}
+header .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+header .logo {
+    width: 50%;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    
 }
 
-@media (min-width:769px) {
+header .seach {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+header i {
+    align-self: center;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul {
+    display: flex;
+    margin: 0 5px;
+}
 
+}
+
+@media (min-width:761px) {
+    main .banner{
+        width: 100%;
+        display: block;
+    }
+    header .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    header .logo {
+        width: 20%;
+        margin-right: 5px;
+    }
+    header .barra {
+        display: flex;
+        justify-content: center;
+    }
+    
+    header .seach {
+        width: 40%;
+        height: 30%;
+    }
 }
 
 

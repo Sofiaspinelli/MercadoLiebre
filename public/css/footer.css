@@ -20,3 +20,13 @@ footer section i {
     font-size: var(--iconos);
     margin: 10px 0;
 }
+@media (min-width:761px) {
+    footer {
+        
+        display: flex;
+        align-items: center;
+    }
+    footer section:last-child {
+        display: none;
+    }
+}
